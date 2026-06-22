@@ -1,0 +1,54 @@
+{
+  "version": 2,
+  "updated": "2026-06-22",
+  "sources": [
+    {
+      "id": "youtube_music",
+      "name": "YouTube Music",
+      "desc": "Поиск треков через YouTube Data API v3",
+      "icon": "msg_link",
+      "version": "1.0.0",
+      "url": "https://example.com/music_sources/youtube_music.py",
+      "requires_api_key": true,
+      "api_key_label": "Google API Key",
+      "api_key_hint": "AIzaSy...",
+      "api_key_url": "https://console.cloud.google.com/"
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "desc": "Поиск треков через Spotify Web API",
+      "icon": "msg_link",
+      "version": "1.0.0",
+      "url": "https://example.com/music_sources/spotify.py",
+      "requires_api_key": true,
+      "api_key_label": "Client ID + Secret",
+      "api_key_hint": "client_id:client_secret",
+      "api_key_url": "https://developer.spotify.com/dashboard"
+    },
+    {
+      "id": "vk_music",
+      "name": "VK Музыка",
+      "desc": "Аудиозаписи ВКонтакте",
+      "icon": "msg_link",
+      "version": "1.0.0",
+      "url": "https://example.com/music_sources/vk_music.py",
+      "requires_api_key": true,
+      "api_key_label": "VK Token",
+      "api_key_hint": "vk1.a...",
+      "api_key_url": "https://vkhost.github.io/"
+    },
+    {
+      "id": "soundcloud",
+      "name": "SoundCloud",
+      "desc": "Поиск треков на SoundCloud",
+      "icon": "msg_link",
+      "version": "1.0.0",
+      "url": "https://example.com/music_sources/soundcloud.py",
+      "requires_api_key": true,
+      "api_key_label": "Client ID + Secret",
+      "api_key_hint": "client_id:client_secret",
+      "api_key_url": "https://developers.soundcloud.com/"
+    }
+  ]
+}
